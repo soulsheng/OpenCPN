@@ -99,6 +99,8 @@ extern double           g_TrackDeltaDistance;
 extern RouteProp                 *pRoutePropDialog;
 extern float            g_GLMinSymbolLineWidth;
 
+#define LONG_MAX 2147483647L
+
 #if defined( __UNIX__ ) && !defined(__WXOSX__)  // high resolution stopwatch for profiling
 class OCPNStopWatch
 {
@@ -692,7 +694,7 @@ double Track::ComputeScale(int left, int right)
     // avoid this calculation for large distances... slight optimization
     // at building with expense rendering zoomed out. is it needed?
     if(lengthSquared > 3)
-        return INFINITY;
+        return LONG_MAX;
 
     if ( lengthSquared == 0.0 ) {
         for(int i = left+1; i < right; i++) {

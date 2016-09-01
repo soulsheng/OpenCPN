@@ -6635,7 +6635,7 @@ wxString GetOCPNKnownLanguage(wxString lang_canonical, wxString& lang_dir) {
     return_string = wxString("Magyar", wxConvUTF8);
   } else if (lang_canonical == _T("zh_TW")) {
     dir_suffix = _T("zh_TW");
-    return_string = wxString("正體字", wxConvUTF8);
+    return_string = wxString("正字", wxConvUTF8);
   } else if (lang_canonical == _T("ca_ES")) {
     dir_suffix = _T("ca_ES");
     return_string = wxString("Catalan", wxConvUTF8);

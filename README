@@ -38,4 +38,8 @@ a.  Opencpn was built with the following objectives in mind.
 	wxWidgets
 		$(WXWIN) = "D:\Program Files\wxWidgets-3.0.2" or other path 
 		
-	
+	gtk cairo and expat
+		\OpenCPN\buildwin
+		download url:
+			http://sourceforge.net/projects/opencpnplugins/files/opencpn_packaging_data/OpenCPN_buildwin-svg.7z/download
+		

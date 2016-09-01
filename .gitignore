@@ -20,7 +20,11 @@ build/Win32
 build/src/glu/*.dir
 build/src/glu/Win32
 /build/*.mo
-/build/Debug
+/build/Debug/*.lib
+/build/Debug/*.pdb
+/build/Debug/*.ilk
+/build/Debug/*.exp
+/build/Debug/*.exe
 /build/*.sdf
 /build/*.opensdf
 /build/lib

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt" />
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ca_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_cs_CZ.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_da_DK.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_de_DE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_el_GR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_es_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_et_EE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_fi_FI.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_fr_FR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_gl_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_hu_HU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_it_IT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ja_JP.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_nb_NO.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_nl_NL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pl_PL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pt_BR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pt_PT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ru_RU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_sv_SE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_tr_TR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_vi_VN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_zh_TW.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMakeFiles\e8b983e4f97ac51befd2640173701964\po-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\po-update" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C96AAF6-1CA1-325C-93EF-3A02093DFA34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

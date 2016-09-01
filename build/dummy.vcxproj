@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{36E7E191-C896-3E40-A054-F507CA98082A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>dummy</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\e8b983e4f97ac51befd2640173701964\dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dummy: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/dummy.rule;D:\OpenCPN\build\Debug\opencpn.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\CMakeFiles\dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dummy: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/dummy.rule;D:\OpenCPN\build\Release\opencpn.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\CMakeFiles\dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dummy: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/dummy.rule;D:\OpenCPN\build\MinSizeRel\opencpn.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\CMakeFiles\dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dummy: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/dummy.rule;D:\OpenCPN\build\RelWithDebInfo\opencpn.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\CMakeFiles\dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\dummy" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/OpenCPN/build/ZERO_CHECK.vcxproj">
+      <Project>506FC3BE-F889-3535-AE25-6B4A94CF25C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/OpenCPN/build/opencpn.vcxproj">
+      <Project>8076AE05-567D-31DF-BED2-581F7BC31030</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

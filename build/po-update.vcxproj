@@ -1,0 +1,1405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{90E571E7-88CD-3F71-982F-57A60D223527}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>po-update</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ca_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ca_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ca_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_ca_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ca_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ca_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_ca_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ca_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ca_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_ca_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ca_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ca_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_ca_ES.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_cs_CZ.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_cs_CZ.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_cs_CZ.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_cs_CZ.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_cs_CZ.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_cs_CZ.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_cs_CZ.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_cs_CZ.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_cs_CZ.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_cs_CZ.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_cs_CZ.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_cs_CZ.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_cs_CZ.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_da_DK.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_da_DK.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_da_DK.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_da_DK.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_da_DK.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_da_DK.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_da_DK.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_da_DK.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_da_DK.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_da_DK.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_da_DK.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_da_DK.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_da_DK.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_de_DE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_de_DE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_de_DE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_de_DE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_de_DE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_de_DE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_de_DE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_de_DE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_de_DE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_de_DE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_de_DE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_de_DE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_de_DE.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_el_GR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_el_GR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_el_GR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_el_GR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_el_GR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_el_GR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_el_GR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_el_GR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_el_GR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_el_GR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_el_GR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_el_GR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_el_GR.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_es_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_es_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_es_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_es_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_es_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_es_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_es_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_es_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_es_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_es_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_es_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_es_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_es_ES.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_et_EE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_et_EE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_et_EE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_et_EE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_et_EE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_et_EE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_et_EE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_et_EE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_et_EE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_et_EE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_et_EE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_et_EE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_et_EE.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_fi_FI.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fi_FI.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fi_FI.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_fi_FI.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fi_FI.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fi_FI.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_fi_FI.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fi_FI.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fi_FI.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_fi_FI.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fi_FI.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fi_FI.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_fi_FI.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_fr_FR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fr_FR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fr_FR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_fr_FR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fr_FR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fr_FR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_fr_FR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fr_FR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fr_FR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_fr_FR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_fr_FR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_fr_FR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_fr_FR.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_gl_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_gl_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_gl_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_gl_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_gl_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_gl_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_gl_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_gl_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_gl_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_gl_ES.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_gl_ES.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_gl_ES.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_gl_ES.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_hu_HU.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_hu_HU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_hu_HU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_hu_HU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_hu_HU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_hu_HU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_hu_HU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_hu_HU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_hu_HU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_hu_HU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_hu_HU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_hu_HU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_hu_HU.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_it_IT.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_it_IT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_it_IT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_it_IT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_it_IT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_it_IT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_it_IT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_it_IT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_it_IT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_it_IT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_it_IT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_it_IT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_it_IT.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ja_JP.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ja_JP.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ja_JP.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_ja_JP.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ja_JP.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ja_JP.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_ja_JP.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ja_JP.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ja_JP.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_ja_JP.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ja_JP.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ja_JP.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_ja_JP.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_nb_NO.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nb_NO.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nb_NO.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_nb_NO.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nb_NO.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nb_NO.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_nb_NO.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nb_NO.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nb_NO.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_nb_NO.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nb_NO.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nb_NO.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_nb_NO.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_nl_NL.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nl_NL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nl_NL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_nl_NL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nl_NL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nl_NL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_nl_NL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nl_NL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nl_NL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_nl_NL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_nl_NL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_nl_NL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_nl_NL.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pl_PL.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pl_PL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pl_PL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_pl_PL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pl_PL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pl_PL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_pl_PL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pl_PL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pl_PL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_pl_PL.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pl_PL.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pl_PL.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_pl_PL.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pt_BR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_BR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_BR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_pt_BR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_BR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_BR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_pt_BR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_BR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_BR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_pt_BR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_BR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_BR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_pt_BR.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_pt_PT.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_PT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_PT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_pt_PT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_PT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_PT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_pt_PT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_PT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_PT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_pt_PT.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_pt_PT.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_pt_PT.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_pt_PT.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_ru_RU.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ru_RU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ru_RU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_ru_RU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ru_RU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ru_RU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_ru_RU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ru_RU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ru_RU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_ru_RU.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_ru_RU.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_ru_RU.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_ru_RU.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_sv_SE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_sv_SE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_sv_SE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_sv_SE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_sv_SE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_sv_SE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_sv_SE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_sv_SE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_sv_SE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_sv_SE.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_sv_SE.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_sv_SE.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_sv_SE.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_tr_TR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_tr_TR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_tr_TR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_tr_TR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_tr_TR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_tr_TR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_tr_TR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_tr_TR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_tr_TR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_tr_TR.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_tr_TR.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_tr_TR.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_tr_TR.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_vi_VN.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_vi_VN.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_vi_VN.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_vi_VN.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_vi_VN.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_vi_VN.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_vi_VN.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_vi_VN.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_vi_VN.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_vi_VN.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_vi_VN.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_vi_VN.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_vi_VN.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\51e3a6a4a7e50a500228eca93cb24e70\opencpn_zh_TW.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update [opencpn_zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_zh_TW.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_zh_TW.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\po\opencpn_zh_TW.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update [opencpn_zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_zh_TW.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_zh_TW.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\po\opencpn_zh_TW.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update [opencpn_zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_zh_TW.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_zh_TW.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\po\opencpn_zh_TW.po.dummy</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update [opencpn_zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s D:/OpenCPN/po/opencpn_zh_TW.po D:/OpenCPN/po/opencpn.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/51e3a6a4a7e50a500228eca93cb24e70/opencpn_zh_TW.po.dummy.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\po\opencpn_zh_TW.po.dummy</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\e8b983e4f97ac51befd2640173701964\po-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/po-update.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po.dummy;D:\OpenCPN\po\opencpn_cs_CZ.po.dummy;D:\OpenCPN\po\opencpn_da_DK.po.dummy;D:\OpenCPN\po\opencpn_de_DE.po.dummy;D:\OpenCPN\po\opencpn_el_GR.po.dummy;D:\OpenCPN\po\opencpn_es_ES.po.dummy;D:\OpenCPN\po\opencpn_et_EE.po.dummy;D:\OpenCPN\po\opencpn_fi_FI.po.dummy;D:\OpenCPN\po\opencpn_fr_FR.po.dummy;D:\OpenCPN\po\opencpn_gl_ES.po.dummy;D:\OpenCPN\po\opencpn_hu_HU.po.dummy;D:\OpenCPN\po\opencpn_it_IT.po.dummy;D:\OpenCPN\po\opencpn_ja_JP.po.dummy;D:\OpenCPN\po\opencpn_nb_NO.po.dummy;D:\OpenCPN\po\opencpn_nl_NL.po.dummy;D:\OpenCPN\po\opencpn_pl_PL.po.dummy;D:\OpenCPN\po\opencpn_pt_BR.po.dummy;D:\OpenCPN\po\opencpn_pt_PT.po.dummy;D:\OpenCPN\po\opencpn_ru_RU.po.dummy;D:\OpenCPN\po\opencpn_sv_SE.po.dummy;D:\OpenCPN\po\opencpn_tr_TR.po.dummy;D:\OpenCPN\po\opencpn_vi_VN.po.dummy;D:\OpenCPN\po\opencpn_zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\CMakeFiles\po-update</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/po-update.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po.dummy;D:\OpenCPN\po\opencpn_cs_CZ.po.dummy;D:\OpenCPN\po\opencpn_da_DK.po.dummy;D:\OpenCPN\po\opencpn_de_DE.po.dummy;D:\OpenCPN\po\opencpn_el_GR.po.dummy;D:\OpenCPN\po\opencpn_es_ES.po.dummy;D:\OpenCPN\po\opencpn_et_EE.po.dummy;D:\OpenCPN\po\opencpn_fi_FI.po.dummy;D:\OpenCPN\po\opencpn_fr_FR.po.dummy;D:\OpenCPN\po\opencpn_gl_ES.po.dummy;D:\OpenCPN\po\opencpn_hu_HU.po.dummy;D:\OpenCPN\po\opencpn_it_IT.po.dummy;D:\OpenCPN\po\opencpn_ja_JP.po.dummy;D:\OpenCPN\po\opencpn_nb_NO.po.dummy;D:\OpenCPN\po\opencpn_nl_NL.po.dummy;D:\OpenCPN\po\opencpn_pl_PL.po.dummy;D:\OpenCPN\po\opencpn_pt_BR.po.dummy;D:\OpenCPN\po\opencpn_pt_PT.po.dummy;D:\OpenCPN\po\opencpn_ru_RU.po.dummy;D:\OpenCPN\po\opencpn_sv_SE.po.dummy;D:\OpenCPN\po\opencpn_tr_TR.po.dummy;D:\OpenCPN\po\opencpn_vi_VN.po.dummy;D:\OpenCPN\po\opencpn_zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\CMakeFiles\po-update</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/po-update.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po.dummy;D:\OpenCPN\po\opencpn_cs_CZ.po.dummy;D:\OpenCPN\po\opencpn_da_DK.po.dummy;D:\OpenCPN\po\opencpn_de_DE.po.dummy;D:\OpenCPN\po\opencpn_el_GR.po.dummy;D:\OpenCPN\po\opencpn_es_ES.po.dummy;D:\OpenCPN\po\opencpn_et_EE.po.dummy;D:\OpenCPN\po\opencpn_fi_FI.po.dummy;D:\OpenCPN\po\opencpn_fr_FR.po.dummy;D:\OpenCPN\po\opencpn_gl_ES.po.dummy;D:\OpenCPN\po\opencpn_hu_HU.po.dummy;D:\OpenCPN\po\opencpn_it_IT.po.dummy;D:\OpenCPN\po\opencpn_ja_JP.po.dummy;D:\OpenCPN\po\opencpn_nb_NO.po.dummy;D:\OpenCPN\po\opencpn_nl_NL.po.dummy;D:\OpenCPN\po\opencpn_pl_PL.po.dummy;D:\OpenCPN\po\opencpn_pt_BR.po.dummy;D:\OpenCPN\po\opencpn_pt_PT.po.dummy;D:\OpenCPN\po\opencpn_ru_RU.po.dummy;D:\OpenCPN\po\opencpn_sv_SE.po.dummy;D:\OpenCPN\po\opencpn_tr_TR.po.dummy;D:\OpenCPN\po\opencpn_vi_VN.po.dummy;D:\OpenCPN\po\opencpn_zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\CMakeFiles\po-update</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/build/CMakeFiles/e8b983e4f97ac51befd2640173701964/po-update.rule;D:\OpenCPN\po\opencpn.pot;D:\OpenCPN\po\opencpn_ca_ES.po.dummy;D:\OpenCPN\po\opencpn_cs_CZ.po.dummy;D:\OpenCPN\po\opencpn_da_DK.po.dummy;D:\OpenCPN\po\opencpn_de_DE.po.dummy;D:\OpenCPN\po\opencpn_el_GR.po.dummy;D:\OpenCPN\po\opencpn_es_ES.po.dummy;D:\OpenCPN\po\opencpn_et_EE.po.dummy;D:\OpenCPN\po\opencpn_fi_FI.po.dummy;D:\OpenCPN\po\opencpn_fr_FR.po.dummy;D:\OpenCPN\po\opencpn_gl_ES.po.dummy;D:\OpenCPN\po\opencpn_hu_HU.po.dummy;D:\OpenCPN\po\opencpn_it_IT.po.dummy;D:\OpenCPN\po\opencpn_ja_JP.po.dummy;D:\OpenCPN\po\opencpn_nb_NO.po.dummy;D:\OpenCPN\po\opencpn_nl_NL.po.dummy;D:\OpenCPN\po\opencpn_pl_PL.po.dummy;D:\OpenCPN\po\opencpn_pt_BR.po.dummy;D:\OpenCPN\po\opencpn_pt_PT.po.dummy;D:\OpenCPN\po\opencpn_ru_RU.po.dummy;D:\OpenCPN\po\opencpn_sv_SE.po.dummy;D:\OpenCPN\po\opencpn_tr_TR.po.dummy;D:\OpenCPN\po\opencpn_vi_VN.po.dummy;D:\OpenCPN\po\opencpn_zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\CMakeFiles\po-update</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\po-update" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/OpenCPN/build/ZERO_CHECK.vcxproj">
+      <Project>506FC3BE-F889-3535-AE25-6B4A94CF25C9</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

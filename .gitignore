@@ -1,7 +1,6 @@
 cscope.files
 tags
 index.sh
-build
 cscope.out
 *~
 *.kdev*

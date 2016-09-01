@@ -18,3 +18,12 @@ buildwin/vc/
 buildwin/wxWidgets/
 buildwin/zlib1.dll
 src/opencpn.rc
+build/*.dir
+build/Win32
+build/src/glu/*.dir
+build/src/glu/Win32
+/build/*.mo
+/build/Debug
+/build/*.sdf
+/build/*.opensdf
+/build/lib

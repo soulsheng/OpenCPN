@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -52,33 +52,33 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencpn.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencpn</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencpn.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencpn</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opencpn.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opencpn</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opencpn.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opencpn</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencpn.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencpn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencpn.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencpn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opencpn.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">opencpn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opencpn.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">opencpn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>D:\Program Files\wxWidgets-3.0.2\lib\vc_dll\mswu;D:\Program Files\wxWidgets-3.0.2\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -92,7 +92,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;ocpnUSE_GL;USE_GLU_TESS;WXUSINGDLL;UNICODE;_UNICODE;OCPN_USE_CRASHRPT;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;PSAPI_VERSION=1;__OCPN_USE_CURL__;USE_RENDER_CAIRO;ocpnUSE_SVG;TIXML_USE_STL;USE_S57;USE_GARMINHOST;__WIN32__;_DEBUG;__WXDEBUG__;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -117,7 +118,8 @@
       <ImportLibrary>D:/OpenCPN/build/Debug/opencpn.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/OpenCPN/build/Debug/opencpn.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -135,7 +137,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ocpnUSE_GL;USE_GLU_TESS;WXUSINGDLL;UNICODE;_UNICODE;OCPN_USE_CRASHRPT;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;PSAPI_VERSION=1;__OCPN_USE_CURL__;USE_RENDER_CAIRO;ocpnUSE_SVG;TIXML_USE_STL;USE_S57;USE_GARMINHOST;__WIN32__;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -160,7 +163,8 @@
       <ImportLibrary>D:/OpenCPN/build/Release/opencpn.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/OpenCPN/build/Release/opencpn.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -177,11 +181,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ocpnUSE_GL;USE_GLU_TESS;WXUSINGDLL;UNICODE;_UNICODE;OCPN_USE_CRASHRPT;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;PSAPI_VERSION=1;__OCPN_USE_CURL__;USE_RENDER_CAIRO;ocpnUSE_SVG;TIXML_USE_STL;USE_S57;USE_GARMINHOST;__WIN32__;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ocpnUSE_GL;USE_GLU_TESS;WXUSINGDLL;UNICODE;_UNICODE;OCPN_USE_CRASHRPT;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;PSAPI_VERSION=1;__OCPN_USE_CURL__;USE_RENDER_CAIRO;ocpnUSE_SVG;TIXML_USE_STL;USE_S57;USE_GARMINHOST;__WIN32__;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -203,7 +209,8 @@
       <ImportLibrary>D:/OpenCPN/build/MinSizeRel/opencpn.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/OpenCPN/build/MinSizeRel/opencpn.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -221,7 +228,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ocpnUSE_GL;USE_GLU_TESS;WXUSINGDLL;UNICODE;_UNICODE;OCPN_USE_CRASHRPT;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;PSAPI_VERSION=1;__OCPN_USE_CURL__;USE_RENDER_CAIRO;ocpnUSE_SVG;TIXML_USE_STL;USE_S57;USE_GARMINHOST;__WIN32__;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -246,64 +254,13 @@
       <ImportLibrary>D:/OpenCPN/build/RelWithDebInfo/opencpn.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/OpenCPN/build/RelWithDebInfo/opencpn.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OpenCPN/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/OpenCPN -BD:/OpenCPN/build --check-stamp-file D:\OpenCPN\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OpenCPN/CMakeLists.txt;D:\OpenCPN\CMakeLists.txt;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCCompiler.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\OpenCPN\build\CMakeFiles\3.6.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\OpenCPN\VERSION.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\UsewxWidgets.cmake;D:\OpenCPN\Curl.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\OpenCPN\src\opencpn.rc.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_GERMAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FRENCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CZECH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SPANISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_ITALIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_DUTCH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_POLISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESEBR.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_PORTUGUESE.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_RUSSIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_SWEDISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_FINNISH.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_NORWEGIAN.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_CHINESETW.nsh.in;D:\OpenCPN\buildwin\NSIS_Unicode\Language files\Langstrings_TURKISH.nsh.in;D:\OpenCPN\version.h.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.6\Templates\CPackConfig.cmake.in;D:\OpenCPN\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OpenCPN\build\CMakeFiles\generate.stamp</Outputs>
-    </CustomBuild>
-  </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\ocpn_types.h" />
     <ClInclude Include="..\include\ocpndc.h" />
@@ -410,107 +367,107 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\include\glTextureManager.h" />
     <ClInclude Include="..\include\TexFont.h" />
     <ClInclude Include="..\include\tinyxml.h" />
-    <ClCompile Include="..\src\chart1.cpp"  />
-    <ClCompile Include="..\src\bbox.cpp"  />
-    <ClCompile Include="..\src\ocpn_pixel.cpp"  />
-    <ClCompile Include="..\src\ocpndc.cpp"  />
-    <ClCompile Include="..\src\chartdb.cpp"  />
-    <ClCompile Include="..\src\chartdbs.cpp"  />
-    <ClCompile Include="..\src\chartimg.cpp"  />
-    <ClCompile Include="..\src\chcanv.cpp"  />
-    <ClCompile Include="..\src\ocpCursor.cpp"  />
-    <ClCompile Include="..\src\TCWin.cpp"  />
-    <ClCompile Include="..\src\S57QueryDialog.cpp"  />
-    <ClCompile Include="..\src\GoToPositionDialog.cpp"  />
-    <ClCompile Include="..\src\CM93DSlide.cpp"  />
-    <ClCompile Include="..\src\RolloverWin.cpp"  />
-    <ClCompile Include="..\src\ChInfoWin.cpp"  />
-    <ClCompile Include="..\src\AISTargetQueryDialog.cpp"  />
-    <ClCompile Include="..\src\AIS_Bitstring.cpp"  />
-    <ClCompile Include="..\src\AISTargetListDialog.cpp"  />
-    <ClCompile Include="..\src\AISTargetAlertDialog.cpp"  />
-    <ClCompile Include="..\src\AIS_Decoder.cpp"  />
-    <ClCompile Include="..\src\AIS_Target_Data.cpp"  />
-    <ClCompile Include="..\src\OCPNListCtrl.cpp"  />
-    <ClCompile Include="..\src\Quilt.cpp"  />
-    <ClCompile Include="..\src\Hyperlink.cpp"  />
-    <ClCompile Include="..\src\NavObjectCollection.cpp"  />
-    <ClCompile Include="..\src\RoutePoint.cpp"  />
-    <ClCompile Include="..\src\Route.cpp"  />
-    <ClCompile Include="..\src\Track.cpp"  />
-    <ClCompile Include="..\src\SelectItem.cpp"  />
-    <ClCompile Include="..\src\Select.cpp"  />
-    <ClCompile Include="..\src\FontMgr.cpp"  />
-    <ClCompile Include="..\src\FontDesc.cpp"  />
-    <ClCompile Include="..\src\OCPNSoundData.cpp"  />
-    <ClCompile Include="..\src\OCPN_Sound.cpp"  />
-    <ClCompile Include="..\src\NMEALogWindow.cpp"  />
-    <ClCompile Include="..\src\TTYWindow.cpp"  />
-    <ClCompile Include="..\src\TTYScroll.cpp"  />
-    <ClCompile Include="..\src\SendToGpsDlg.cpp"  />
-    <ClCompile Include="..\src\Layer.cpp"  />
-    <ClCompile Include="..\src\concanv.cpp"  />
-    <ClCompile Include="..\src\cutil.cpp"  />
-    <ClCompile Include="..\src\georef.cpp"  />
-    <ClCompile Include="..\src\navutil.cpp"  />
-    <ClCompile Include="..\src\routeman.cpp"  />
-    <ClCompile Include="..\src\routemanagerdialog.cpp"  />
-    <ClCompile Include="..\src\routeprop.cpp"  />
-    <ClCompile Include="..\src\routeprintout.cpp"  />
-    <ClCompile Include="..\src\PositionParser.cpp"  />
-    <ClCompile Include="..\src\printtable.cpp"  />
-    <ClCompile Include="..\src\piano.cpp"  />
-    <ClCompile Include="..\src\tcmgr.cpp"  />
-    <ClCompile Include="..\src\Station_Data.cpp"  />
-    <ClCompile Include="..\src\IDX_entry.cpp"  />
-    <ClCompile Include="..\src\TCDataFactory.cpp"  />
-    <ClCompile Include="..\src\TCDS_Ascii_Harmonic.cpp"  />
-    <ClCompile Include="..\src\TCDS_Binary_Harmonic.cpp"  />
-    <ClCompile Include="..\src\TCDataSource.cpp"  />
-    <ClCompile Include="..\src\thumbwin.cpp"  />
-    <ClCompile Include="..\src\options.cpp"  />
-    <ClCompile Include="..\src\gshhs.cpp"  />
-    <ClCompile Include="..\src\kml.cpp"  />
-    <ClCompile Include="..\src\undo.cpp"  />
-    <ClCompile Include="..\src\about.cpp"  />
-    <ClCompile Include="..\src\ais.cpp"  />
-    <ClCompile Include="..\src\pluginmanager.cpp"  />
-    <ClCompile Include="..\src\gpxdocument.cpp"  />
-    <ClCompile Include="..\src\wxJSON\jsonwriter.cpp"  />
-    <ClCompile Include="..\src\wxJSON\jsonreader.cpp"  />
-    <ClCompile Include="..\src\wxJSON\jsonval.cpp"  />
-    <ClCompile Include="..\src\styles.cpp"  />
-    <ClCompile Include="..\src\toolbar.cpp"  />
-    <ClCompile Include="..\src\compass.cpp"  />
-    <ClCompile Include="..\src\geodesic.cpp"  />
-    <ClCompile Include="..\src\datastream.cpp"  />
-    <ClCompile Include="..\src\OCPN_DataStreamEvent.cpp"  />
-    <ClCompile Include="..\src\ConnectionParams.cpp"  />
-    <ClCompile Include="..\src\OCP_DataStreamInput_Thread.cpp"  />
-    <ClCompile Include="..\src\multiplexer.cpp"  />
-    <ClCompile Include="..\src\pugixml.cpp"  />
-    <ClCompile Include="..\src\OCPNRegion.cpp"  />
-    <ClCompile Include="..\src\LLRegion.cpp"  />
-    <ClCompile Include="..\src\TrackPropDlg.cpp"  />
-    <ClCompile Include="..\src\LinkPropDlg.cpp"  />
-    <ClCompile Include="..\src\ssl\sha1.c" >
+    <ClCompile Include="..\src\chart1.cpp" />
+    <ClCompile Include="..\src\bbox.cpp" />
+    <ClCompile Include="..\src\ocpn_pixel.cpp" />
+    <ClCompile Include="..\src\ocpndc.cpp" />
+    <ClCompile Include="..\src\chartdb.cpp" />
+    <ClCompile Include="..\src\chartdbs.cpp" />
+    <ClCompile Include="..\src\chartimg.cpp" />
+    <ClCompile Include="..\src\chcanv.cpp" />
+    <ClCompile Include="..\src\ocpCursor.cpp" />
+    <ClCompile Include="..\src\TCWin.cpp" />
+    <ClCompile Include="..\src\S57QueryDialog.cpp" />
+    <ClCompile Include="..\src\GoToPositionDialog.cpp" />
+    <ClCompile Include="..\src\CM93DSlide.cpp" />
+    <ClCompile Include="..\src\RolloverWin.cpp" />
+    <ClCompile Include="..\src\ChInfoWin.cpp" />
+    <ClCompile Include="..\src\AISTargetQueryDialog.cpp" />
+    <ClCompile Include="..\src\AIS_Bitstring.cpp" />
+    <ClCompile Include="..\src\AISTargetListDialog.cpp" />
+    <ClCompile Include="..\src\AISTargetAlertDialog.cpp" />
+    <ClCompile Include="..\src\AIS_Decoder.cpp" />
+    <ClCompile Include="..\src\AIS_Target_Data.cpp" />
+    <ClCompile Include="..\src\OCPNListCtrl.cpp" />
+    <ClCompile Include="..\src\Quilt.cpp" />
+    <ClCompile Include="..\src\Hyperlink.cpp" />
+    <ClCompile Include="..\src\NavObjectCollection.cpp" />
+    <ClCompile Include="..\src\RoutePoint.cpp" />
+    <ClCompile Include="..\src\Route.cpp" />
+    <ClCompile Include="..\src\Track.cpp" />
+    <ClCompile Include="..\src\SelectItem.cpp" />
+    <ClCompile Include="..\src\Select.cpp" />
+    <ClCompile Include="..\src\FontMgr.cpp" />
+    <ClCompile Include="..\src\FontDesc.cpp" />
+    <ClCompile Include="..\src\OCPNSoundData.cpp" />
+    <ClCompile Include="..\src\OCPN_Sound.cpp" />
+    <ClCompile Include="..\src\NMEALogWindow.cpp" />
+    <ClCompile Include="..\src\TTYWindow.cpp" />
+    <ClCompile Include="..\src\TTYScroll.cpp" />
+    <ClCompile Include="..\src\SendToGpsDlg.cpp" />
+    <ClCompile Include="..\src\Layer.cpp" />
+    <ClCompile Include="..\src\concanv.cpp" />
+    <ClCompile Include="..\src\cutil.cpp" />
+    <ClCompile Include="..\src\georef.cpp" />
+    <ClCompile Include="..\src\navutil.cpp" />
+    <ClCompile Include="..\src\routeman.cpp" />
+    <ClCompile Include="..\src\routemanagerdialog.cpp" />
+    <ClCompile Include="..\src\routeprop.cpp" />
+    <ClCompile Include="..\src\routeprintout.cpp" />
+    <ClCompile Include="..\src\PositionParser.cpp" />
+    <ClCompile Include="..\src\printtable.cpp" />
+    <ClCompile Include="..\src\piano.cpp" />
+    <ClCompile Include="..\src\tcmgr.cpp" />
+    <ClCompile Include="..\src\Station_Data.cpp" />
+    <ClCompile Include="..\src\IDX_entry.cpp" />
+    <ClCompile Include="..\src\TCDataFactory.cpp" />
+    <ClCompile Include="..\src\TCDS_Ascii_Harmonic.cpp" />
+    <ClCompile Include="..\src\TCDS_Binary_Harmonic.cpp" />
+    <ClCompile Include="..\src\TCDataSource.cpp" />
+    <ClCompile Include="..\src\thumbwin.cpp" />
+    <ClCompile Include="..\src\options.cpp" />
+    <ClCompile Include="..\src\gshhs.cpp" />
+    <ClCompile Include="..\src\kml.cpp" />
+    <ClCompile Include="..\src\undo.cpp" />
+    <ClCompile Include="..\src\about.cpp" />
+    <ClCompile Include="..\src\ais.cpp" />
+    <ClCompile Include="..\src\pluginmanager.cpp" />
+    <ClCompile Include="..\src\gpxdocument.cpp" />
+    <ClCompile Include="..\src\wxJSON\jsonwriter.cpp" />
+    <ClCompile Include="..\src\wxJSON\jsonreader.cpp" />
+    <ClCompile Include="..\src\wxJSON\jsonval.cpp" />
+    <ClCompile Include="..\src\styles.cpp" />
+    <ClCompile Include="..\src\toolbar.cpp" />
+    <ClCompile Include="..\src\compass.cpp" />
+    <ClCompile Include="..\src\geodesic.cpp" />
+    <ClCompile Include="..\src\datastream.cpp" />
+    <ClCompile Include="..\src\OCPN_DataStreamEvent.cpp" />
+    <ClCompile Include="..\src\ConnectionParams.cpp" />
+    <ClCompile Include="..\src\OCP_DataStreamInput_Thread.cpp" />
+    <ClCompile Include="..\src\multiplexer.cpp" />
+    <ClCompile Include="..\src\pugixml.cpp" />
+    <ClCompile Include="..\src\OCPNRegion.cpp" />
+    <ClCompile Include="..\src\LLRegion.cpp" />
+    <ClCompile Include="..\src\TrackPropDlg.cpp" />
+    <ClCompile Include="..\src\LinkPropDlg.cpp" />
+    <ClCompile Include="..\src\ssl\sha1.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="..\src\viewport.cpp"  />
-    <ClCompile Include="..\src\canvasMenu.cpp"  />
-    <ClCompile Include="..\src\OCPNPlatform.cpp"  />
-    <ClCompile Include="..\src\glChartCanvas.cpp"  />
-    <ClCompile Include="..\src\glTextureDescriptor.cpp"  />
-    <ClCompile Include="..\src\glTexCache.cpp"  />
-    <ClCompile Include="..\src\glTextureManager.cpp"  />
-    <ClCompile Include="..\src\TexFont.cpp"  />
-    <ClCompile Include="..\src\tinyxml.cpp"  />
-    <ClCompile Include="..\src\tinyxmlerror.cpp"  />
-    <ClCompile Include="..\src\tinyxmlparser.cpp"  />
-    <ResourceCompile Include="..\src\opencpn.rc"  />
+    <ClCompile Include="..\src\viewport.cpp" />
+    <ClCompile Include="..\src\canvasMenu.cpp" />
+    <ClCompile Include="..\src\OCPNPlatform.cpp" />
+    <ClCompile Include="..\src\glChartCanvas.cpp" />
+    <ClCompile Include="..\src\glTextureDescriptor.cpp" />
+    <ClCompile Include="..\src\glTexCache.cpp" />
+    <ClCompile Include="..\src\glTextureManager.cpp" />
+    <ClCompile Include="..\src\TexFont.cpp" />
+    <ClCompile Include="..\src\tinyxml.cpp" />
+    <ClCompile Include="..\src\tinyxmlerror.cpp" />
+    <ClCompile Include="..\src\tinyxmlparser.cpp" />
+    <ResourceCompile Include="..\src\opencpn.rc" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:/OpenCPN/build/ZERO_CHECK.vcxproj">

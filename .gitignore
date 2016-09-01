@@ -26,3 +26,4 @@ build/src/glu/Win32
 /build/lib
 /build/ipch
 /build/*.suo
+/build/Release

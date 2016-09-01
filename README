@@ -30,3 +30,12 @@ a.  Opencpn was built with the following objectives in mind.
 
     Our thanks go to MAXCDN for providing a CDN network delivering
     the OpenCPN downloads worldwide.
+
+
+
+	3rd party library path:
+	
+	wxWidgets
+		$(WXWIN) = "D:\Program Files\wxWidgets-3.0.2" or other path 
+		
+	

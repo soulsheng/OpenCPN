@@ -54,7 +54,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCPN\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SYMBOLS.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SYMBOLS</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
@@ -73,7 +73,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(WXWIN)\lib\vc_dll\mswu;$(WXWIN)\include;D:\OpenCPN\include;D:\OpenCPN\src;D:\OpenCPN\buildwin\crashrpt;D:\OpenCPN\src\wxcurl;D:\OpenCPN\src\wxcurl\include;D:\OpenCPN\buildwin\expat-2.1.0\include;D:\OpenCPN\buildwin\gtk\include;D:\OpenCPN\src\wxsvg\include\wxSVG;D:\OpenCPN\src\wxsvg\include\wxSVGXML;D:\OpenCPN\src\wxsvg\include;D:\OpenCPN\src\wxsvg\src;D:\OpenCPN\src\nmea0183;D:\OpenCPN\src\mygdal;D:\OpenCPN\src\garmin\jeeps;D:\OpenCPN\src\texcmp\lz4;D:\OpenCPN\src\texcmp\squish;D:\OpenCPN\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(WXWIN)\lib\vc_dll\mswu;$(WXWIN)\include;..\include;..\src;..\buildwin\crashrpt;..\src\wxcurl;..\src\wxcurl\include;..\buildwin\expat-2.1.0\include;..\buildwin\gtk\include;..\src\wxsvg\include\wxSVG;..\src\wxsvg\include\wxSVGXML;..\src\wxsvg\include;..\src\wxsvg\src;..\src\nmea0183;..\src\mygdal;..\src\garmin\jeeps;..\src\texcmp\lz4;..\src\texcmp\squish;..\build\CMakeFiles\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>

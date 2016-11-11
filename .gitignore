@@ -31,3 +31,4 @@ build/src/glu/Win32
 /build/ipch
 /build/*.suo
 /build/Release
+/src/*.aps

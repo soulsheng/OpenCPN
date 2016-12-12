@@ -2320,12 +2320,17 @@ extern ocpnGLOptions g_GLOptions;
     androidHideBusyIcon();
 #endif
 
+	AllocConsole();
+	freopen( "CONOUT$", "w+t", stdout );// 申请写
+
     return TRUE;
 }
 
 int MyApp::OnExit()
 {
     wxLogMessage( _T("opencpn::MyApp starting exit.") );
+
+	FreeConsole();
 
     //  Send current nav status data to log file   // pjotrc 2010.02.09
 

@@ -3820,6 +3820,10 @@ void ChartCanvas::ShipDraw( ocpnDC& dc )
 
     if (pSog < 0.2) icon_rad = ((icon_hdt + 90.) * PI / 180) + rotate;
 
+	// calculate vector angle of last and current point
+	if( SHIP_NORMAL == m_ownship_state )
+		icon_rad = atan2f( lShipMidPoint.y - LastShipPoint.y, lShipMidPoint.x - LastShipPoint.x ) + PI;
+
 //    Calculate ownship Heading pointer as a predictor
     double hdg_pred_lat, hdg_pred_lon;
 
@@ -9882,6 +9886,9 @@ void ChartCanvas::DrawOverlayObjects( ocpnDC &dc, const wxRegion& ru )
     AISDraw( dc );
     ShipDraw( dc );
     AlertDraw( dc );
+
+	// save current point as last point for the next frame
+	GetCanvasPointPix( gLat, gLon, &LastShipPoint );
 
     RenderAllChartOutlines( dc, GetVP() );
     RenderRouteLegs( dc );

@@ -31,6 +31,7 @@
 //#include "c:\\Program Files\\visual leak detector\\include\\vld.h"
 #endif
 
+#define ENABLE_CMD_WINDOW	0	// AllocConsole
 
 #include "wx/print.h"
 #include "wx/printdlg.h"
@@ -2320,8 +2321,10 @@ extern ocpnGLOptions g_GLOptions;
     androidHideBusyIcon();
 #endif
 
+#if ENABLE_CMD_WINDOW
 	AllocConsole();
 	freopen( "CONOUT$", "w+t", stdout );// 申请写
+#endif
 
     return TRUE;
 }
@@ -2330,7 +2333,9 @@ int MyApp::OnExit()
 {
     wxLogMessage( _T("opencpn::MyApp starting exit.") );
 
+#if ENABLE_CMD_WINDOW
 	FreeConsole();
+#endif
 
     //  Send current nav status data to log file   // pjotrc 2010.02.09
 

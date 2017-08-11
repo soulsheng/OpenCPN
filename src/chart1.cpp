@@ -1345,6 +1345,7 @@ bool MyApp::OnInit()
     //  On Windows
     //  We allow only one instance unless the portable option is used
 #ifdef __WXMSW__
+	g_bportable = true;	// enable portable
     m_checker = new wxSingleInstanceChecker(_T("OpenCPN"));
     if(!g_bportable) {
         if ( m_checker->IsAnotherRunning() )

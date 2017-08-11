@@ -37,3 +37,8 @@ build/src/glu/Win32
 /build/gshhs
 /build/uidata
 /build/share
+/build/Debug/tcdata
+/build/Debug/uidata
+/build/Debug/cm93
+/build/Debug/gshhs
+/build/Debug/s57data
